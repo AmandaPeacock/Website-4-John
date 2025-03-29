@@ -1,7 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+header {
+
+    height: 50px;
+    width: auto;
+    background: #548C87;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+span {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
 .logo {
-    height: 150px;
-    width: 150px;
+    height: 6em;
+    width: 6em;
 }
 h1 {
+    margin:  28px auto;
     color: #D8D081;
+}
+img {
+    height: 500px;
+    width: 1500px;
+    object-fit: cover;
+}
+a {
+    font-size: 30px;
+    margin: 35px auto ;
+    font-size: large;
+    text-decoration: none;
+    color: #3C635F;
 }
